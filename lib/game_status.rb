@@ -64,4 +64,3 @@ WIN_COMBINATIONS = [
       true
   end
 end
-  
