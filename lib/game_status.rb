@@ -55,3 +55,13 @@ WIN_COMBINATIONS = [
       false
     end
   end
+
+
+  def full?(board)
+    if board.include? " "
+      return false
+    else
+      true
+  end
+end
+  
