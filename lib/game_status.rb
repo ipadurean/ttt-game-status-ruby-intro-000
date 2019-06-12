@@ -64,3 +64,11 @@ WIN_COMBINATIONS = [
       true
   end
 end
+
+def draw?(board)
+  if full? && !won?
+    return true
+  else
+    false
+end
+
